@@ -165,8 +165,10 @@
     .icon-2 {
         position: absolute;
         font-size: 10rem;
-        margin-top: 10rem;
-        left: 38%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 
     .footer {
@@ -185,12 +187,18 @@
 
 @media(max-width: 600px) {
     .icon-2 {
-        left: 30%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 }
 
 @media(max-width: 400px) {
     .icon-2 {
-        left: 22%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 }
