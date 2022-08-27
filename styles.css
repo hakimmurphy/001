@@ -92,6 +92,8 @@
     width: 18rem;
     border: none;
     background-color: #ADCF9F;
+    position: relative;
+    z-index: 2;
 }
 
 .sign-up:hover {
@@ -165,7 +167,6 @@
     .icon-2 {
         position: absolute;
         font-size: 10rem;
-        margin: auto;
         left: 0;
         right: 0;
         bottom: 40%;
@@ -188,7 +189,6 @@
 
 @media(max-width: 600px) {
     .icon-2 {
-        margin: auto;
         left: 0;
         right: 0;
         bottom: 40%;
@@ -198,7 +198,6 @@
 
 @media(max-width: 400px) {
     .icon-2 {
-        margin: auto;
         left: 0;
         right: 0;
         bottom: 40%;
